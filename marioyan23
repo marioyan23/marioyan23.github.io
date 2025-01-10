@@ -1,0 +1,108 @@
+<div class="flex overflow-hidden flex-col justify-center items-center bg-white">
+  <nav class="flex overflow-hidden items-start px-20 py-6 max-w-full text-xl font-semibold tracking-tight leading-tight text-black w-[1440px] max-md:px-5" aria-label="Main navigation">
+    <div class="flex overflow-hidden flex-wrap gap-5 justify-between items-center px-8 py-px min-w-[240px] w-[1279px] max-md:px-5 max-md:max-w-full">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1035c42250d5d67d4c7887805f1241a5443a98c85da6cadfdf91f78cfcd64d29?placeholderIfAbsent=true&apiKey=2397882b84ea4af29f9720e8053055f7" alt="Portfolio Logo" class="object-contain shrink-0 self-stretch my-auto w-11 aspect-[1.26]" />
+      <div class="flex gap-3 items-center self-stretch my-auto font-bold capitalize">
+        <div class="flex shrink-0 self-stretch my-auto w-10 h-10" aria-hidden="true"></div>
+        <div class="self-stretch my-auto">avila reese</div>
+      </div>
+      <div class="flex gap-8 justify-center items-center self-stretch my-auto capitalize max-md:max-w-full" role="navigation">
+        <a href="#about" class="gap-2.5 self-stretch my-auto hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">About Me</a>
+        <a href="#skills" class="gap-2.5 self-stretch my-auto whitespace-nowrap hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">Skills</a>
+        <a href="#portfolio" class="gap-2.5 self-stretch my-auto whitespace-nowrap hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">Portfolio</a>
+        <a href="#contact" class="gap-2.5 self-stretch my-auto hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">Contact me</a>
+      </div>
+      <button class="flex gap-2 justify-center items-center self-stretch px-5 py-4 tracking-wide text-white whitespace-nowrap bg-black rounded min-h-[56px] hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black" aria-label="Download Resume">
+        <span>Resume</span>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/08915946e51f5467d8e36b254c2786975458c7f7312e9023cb6e87308fca7561?placeholderIfAbsent=true&apiKey=2397882b84ea4af29f9720e8053055f7" alt="" class="object-contain shrink-0 self-stretch my-auto w-5 aspect-square" aria-hidden="true" />
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero-section flex overflow-hidden relative items-start px-20 py-16 max-w-full w-[1440px] max-md:px-5">
+    <div class="flex overflow-hidden z-0 justify-between items-center px-8 min-w-[240px] w-[1280px] max-md:px-5 max-md:max-w-full">
+      <div class="flex overflow-hidden flex-col justify-center self-stretch py-5 my-auto min-w-[240px] w-[600px] max-md:max-w-full">
+        <div class="flex flex-col w-full max-md:max-w-full">
+          <h1 class="flex flex-col items-start w-full text-5xl tracking-tighter leading-none h-[239px] max-md:max-w-full max-md:text-4xl">
+            <div class="flex gap-4 items-start text-black max-md:text-4xl">
+              <span>Hello I'am</span>
+              <span class="font-extrabold">Marina</span>
+            </div>
+            <div class="flex flex-wrap gap-4 items-start mt-5 font-extrabold max-md:max-w-full max-md:text-4xl">
+              <span class="text-black">Multifaceted</span>
+              <span class="border-black border-solid border-[3px]">designer</span>
+            </div>
+            <div class="gap-4 mt-5 max-w-full text-black border border-black border-solid leading-[56px] min-h-[149px] w-[544px] max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+              with a focus on motion
+            </div>
+          </h1>
+          <p class="mt-8 text-base tracking-wide leading-6 text-zinc-500 max-md:max-w-full">
+            I've helped brands, agencies and creative studios bring their ideas to life and to turn into design. I approach each project with enthusiasm ensuring every design aligns with the goals and vision of the client.
+            <br />
+            I'm committed to growing my skills and delivering quality work with attention to detail and creativity.
+          </p>
+        </div>
+      </div>
+      <div class="flex overflow-hidden flex-col justify-center items-end self-stretch my-auto min-w-[240px] w-[630px] max-md:max-w-full">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b48881a10c1f70cd5ccd38f968fe5d6a1dd8698fa9bc17df895caf33eb54631?placeholderIfAbsent=true&apiKey=2397882b84ea4af29f9720e8053055f7" alt="Designer working on creative project" class="object-contain max-w-full aspect-square w-[630px]" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section flex overflow-hidden flex-col justify-center px-20 py-16 max-w-full bg-white w-[1440px] max-md:px-5">
+    <div class="flex overflow-hidden flex-wrap justify-between px-8 w-full max-md:px-5">
+      <form class="flex overflow-hidden flex-col flex-1 shrink justify-center py-5 text-base tracking-tight leading-none basis-0 min-w-[240px] text-zinc-500 max-md:max-w-full">
+        <div class="flex flex-col items-start w-full max-md:max-w-full">
+          <div class="flex flex-col max-w-full w-[500px]">
+            <label for="name" class="sr-only">Your name</label>
+            <input type="text" id="name" name="name" class="self-stretch px-6 py-5 w-full rounded border-black border-solid border-[1.4px] min-h-[56px] max-md:px-5 max-md:max-w-full" placeholder="Your name" required aria-required="true" />
+          </div>
+          <div class="flex flex-col mt-5 max-w-full w-[500px]">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" name="email" class="self-stretch px-6 py-5 w-full rounded border-black border-solid border-[1.4px] min-h-[56px] max-md:px-5 max-md:max-w-full" placeholder="Email" required aria-required="true" />
+          </div>
+          <div class="flex flex-col mt-5 max-w-full w-[500px]">
+            <label for="website" class="sr-only">Your website</label>
+            <input type="url" id="website" name="website" class="self-stretch px-6 py-5 w-full rounded border-black border-solid border-[1.4px] min-h-[56px] max-md:px-5 max-md:max-w-full" placeholder="Your website (If exists)" />
+          </div>
+          <div class="flex flex-col mt-5 max-w-full w-[500px]">
+            <label for="message" class="sr-only">How can I help?</label>
+            <textarea id="message" name="message" class="flex-1 shrink px-6 py-4 w-full rounded border-black border-solid border-[1.4px] min-h-[140px] max-md:px-5 max-md:max-w-full" placeholder="How can I help?*" required aria-required="true"></textarea>
+          </div>
+          <button type="submit" class="mt-5 px-6 py-4 bg-black text-white rounded hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">Send Message</button>
+        </div>
+      </form>
+      <div class="flex overflow-hidden flex-col flex-1 shrink justify-center py-5 basis-0 min-w-[240px] max-md:max-w-full">
+        <div class="flex flex-col flex-1 justify-center w-full max-md:max-w-full">
+          <h2 class="flex flex-col w-full text-5xl font-extrabold tracking-tighter leading-none max-md:max-w-full max-md:text-4xl">
+            <div class="flex flex-wrap gap-4 items-start w-full whitespace-nowrap max-md:max-w-full max-md:text-4xl">
+              <span class="text-black">Let's</span>
+              <span class="border-black border-solid border-[3px]">talk</span>
+              <span class="text-black">for</span>
+            </div>
+            <div class="mt-3 text-black max-md:max-w-full max-md:text-4xl">Something special</div>
+          </h2>
+          <p class="mt-5 text-base tracking-wide leading-6 text-zinc-500 max-md:max-w-full">
+            I strive to push the boundaries of creativity, crafting dynamic, captivating, and visually unforgettable design solutions
+          </p>
+          <a href="mailto:avila.reese.ma@gmail.com" class="mt-10 w-full text-3xl font-semibold tracking-tight leading-none text-black whitespace-nowrap max-md:max-w-full hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black">
+            avila.reese.ma@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="flex overflow-hidden items-start px-20 py-6 max-w-full text-white bg-black w-[1440px] max-md:px-5">
+    <div class="flex overflow-hidden flex-wrap gap-10 justify-between items-center px-8 min-w-[240px] w-[1280px] max-md:px-5 max-md:max-w-full">
+      <div class="flex gap-3 items-center self-stretch my-auto text-xl font-bold tracking-tight leading-tight capitalize whitespace-nowrap rounded-2xl">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/33da0f45459abf61c15a3e8b7beb6b254ff9fc5837c6575229c9eebf749a5cbb?placeholderIfAbsent=true&apiKey=2397882b84ea4af29f9720e8053055f7" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[23px]" aria-hidden="true" />
+        <span class="gap-3 self-stretch my-auto">Personal</span>
+      </div>
+      <div class="flex flex-col items-end self-stretch my-auto text-base font-semibold tracking-tight leading-none text-right">
+        <p>© 2024-2025 Personal</p>
+        <p class="mt-3">Made In Figma</p>
+      </div>
+    </div>
+  </footer>
+</div>
