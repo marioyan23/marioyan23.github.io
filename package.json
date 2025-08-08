@@ -1,7 +1,8 @@
 {
-  "name": "nuxt-app",
+  "name": "Marioyan-portfolio-site",
   "private": true,
   "type": "module",
+  "homepage": "https://marioyan23.github.io",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
