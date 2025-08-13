@@ -5,7 +5,8 @@
 <!--    <MainExperience :experience="experience"/>-->
     <MainExperience />
     <MainAbout/>
-    <MainProjects :projects="projects"/>
+    <MainProjects />
+<!--    <MainProjects :projects="projects"/>-->
   </div>
 </template>
 
@@ -19,9 +20,9 @@ import type {MyProjectsResponseType} from "~/contracts/MyProjectsResponseType";
 // })
 
 
-const {data: projects} = await useAsyncData('projects-content', () => {
-  return queryCollection('projects').first()
-})
+// const {data: projects} = await useAsyncData('projects-content', () => {
+//   return queryCollection('projects').first()
+// })
 
 
 </script>

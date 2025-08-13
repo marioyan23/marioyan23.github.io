@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "generate": "nuxt generate",
-    "deploy": "yarn generate && gh-pages -d dist"
+    "deploy": "yarn generate && gh-pages-clean && gh-pages -d dist"
   },
   "dependencies": {
     "@iconify-json/material-symbols": "^1.2.23",
