@@ -1,0 +1,1 @@
+import{_,a,o as c,h as e,b as s,U as r,l,V as p}from"./CfibViO8.js";const d={};function u(o,f){const n=r,t=p;return c(),a("div",null,[e(n),s("div",null,[l(o.$slots,"default")]),e(t)])}const i=_(d,[["render",u]]);export{i as default};
