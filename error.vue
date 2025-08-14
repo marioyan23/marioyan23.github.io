@@ -15,27 +15,29 @@ const errorMessage = computed(() => {
 <template>
   <AppHeader/>
   <section class="error">
-    <h2>Ошибка {{ error?.statusCode }}<br>{{ errorMessage }}</h2>
-    <a href="/">Вернуться на главную страницу</a>
+    <h2>Error {{ error?.statusCode }}<br>{{ errorMessage }}</h2>
+    <a href="/">Return to main page</a>
   </section>
   <AppFooter/>
 </template>
 
 <style lang="scss" scoped>
 .error {
-  margin-top: 100px;
+  //margin-top: 100px;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
 
   a {
     padding: 1rem;
-    color: white;
-    font-family: NeoSansCyrMedium, sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-family: "Sora", serif;
     background: var(--accent-color-blue);
     border-radius: 30px;
   }
 
   h2 {
+    font-family: "Sora", serif;
     font-size: 3rem;
   }
 
