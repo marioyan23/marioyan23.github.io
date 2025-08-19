@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: true,
-    baseURL: '/', // Replace with your repository name,
+    baseURL: '/', // Заменить на /portfolio для dev,
     buildAssetsDir: 'assets',
   },
   ssr: true,
